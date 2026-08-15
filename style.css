@@ -142,3 +142,22 @@ button:hover {
     padding: 10px;
     font-size: 14px;
 }
+.btn-comprar {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #d4af37;
+    color: #0b1b2b;
+    border: 2px solid #d4af37;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-comprar:hover {
+    background-color: transparent;
+    color: #d4af37;
+    transform: translateY(-3px);
+}
