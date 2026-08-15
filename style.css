@@ -1,0 +1,82 @@
+/* Reset básico de margens e fontes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fundo da página em Azul Marinho Profundo */
+body {
+    background-color: #0b1b2b; /* Azul bem escuro e elegante */
+    color: #ffffff; /* Texto geral em branco */
+}
+
+/* Cabeçalho topo da loja */
+header {
+    background-color: #122232; /* Tom de azul levemente mais claro para destacar a barra */
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #d4af37; /* Linha fina em dourado separando o topo */
+}
+
+/* Logo da loja NV WEAR em Dourado */
+header h1 {
+    color: #d4af37; /* Dourado */
+    font-size: 26px;
+    letter-spacing: 2px; /* Espaçamento entre letras estilo marca de luxo */
+}
+
+/* Menu de navegação */
+nav a {
+    color: #ffffff; /* Texto dos links em branco */
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse no menu: muda para Dourado */
+nav a:hover {
+    color: #d4af37;
+}
+
+/* Seção Principal (Banner) */
+main {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+main h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+main p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #d1d5db; /* Branco levemente suave */
+}
+
+/* Botão Principal de Ver Produtos (Dourado com texto escuro) */
+button {
+    background-color: #d4af37; /* Dourado */
+    color: #0b1b2b; /* Texto azul escuro para contraste */
+    border: 2px solid #d4af37;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Efeito ao passar o mouse no Botão */
+button:hover {
+    background-color: transparent; /* Fica vazado */
+    color: #d4af37; /* Texto fica dourado */
+    transform: translateY(-3px); /* Leve elevação de luxo */
+}
