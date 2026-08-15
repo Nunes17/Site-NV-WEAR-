@@ -80,3 +80,65 @@ button:hover {
     color: #d4af37; /* Texto fica dourado */
     transform: translateY(-3px); /* Leve elevação de luxo */
 }
+/* Seção Geral de Produtos */
+.produtos {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.produtos h2 {
+    color: #d4af37;
+    font-size: 28px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Grid para organizar os cards lado a lado */
+.grid-produtos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Design de cada Card de Produto */
+.card-produto {
+    background-color: #122232;
+    border: 1px solid #d4af37;
+    border-radius: 8px;
+    padding: 20px;
+    width: 260px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito ao passar o mouse no card */
+.card-produto:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(212, 175, 55, 0.2);
+}
+
+.card-produto img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.card-produto h3 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.card-produto .preco {
+    color: #d4af37;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btn-comprar {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
