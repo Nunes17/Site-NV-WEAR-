@@ -92,6 +92,7 @@ button:hover {
     margin-bottom: 40px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 /* Grid para organizar os cards lado a lado */
