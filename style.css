@@ -222,3 +222,24 @@ button:hover {
   from, to { border-color: transparent; }
   50% { border-color: #fff; }
 }
+/* Estilo para a opção de tamanho */
+.opcao-tamanho {
+  margin: 10px 0 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.select-tamanho {
+  background-color: #122232;
+  color: #d4af37;
+  border: 1px solid #d4af37;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
